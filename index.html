@@ -6,12 +6,40 @@
 
     <!-- 👇هنا style قم بإضافة وسم   -->
     
+<style>
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+.dots{list-style-type: none;
+display: inline-block;
+
+    
+}
+li{display: inline-block;}
+
+.ps{
+    background-color: blue;
+}
+.nat{
+    background-color: red;
+}
+.gre{
+    background-color: seagreen;
+}
+table,td,tr{border: 7px solid pink;
+border-radius: 4px;
+text-align: center;
+}
+
+
+</style>
 
 </head>
 <body>
     <!-- اكتب اسمك بعد مرحباً، -->
     <!-- headالى ال cssثم غير لون الخط عن طريق اضافة كود   -->
-    <h1>مرحبا، انا اسمي</h1>
+    <h1> مرحبا، انا اسمي نور </h1>
 
 
     <!-- styles.css قم بإنشاء ملف جديد وقم بتسميته  -->
@@ -19,14 +47,14 @@
 
 
     <!-- قم بتغيير طريقة عرض الصور بحيث تظهر الصور تحت بعض -->
-    <img src="./img/ps4.png" alt="الكويت تبرمج">
-    <img src="./img/Nintendo.png" alt="الكويت تبرمج">
-    <img src="./img/pc.png" alt="الكويت تبرمج">
+<div><img src="./img/ps4.png" alt="الكويت تبرمج"></div>
+   <div> <img src="./img/Nintendo.png" alt="الكويت تبرمج"></div>
+    <div><img src="./img/pc.png" alt="الكويت تبرمج"></div>
 
      <!--  بعد ذلك قم باخفاء النقاط من القائمه  -->
-     <div>
-        <h3>منصات الالعاب المتوفره</h3>
-        <ul>
+     <div style="display: inline-block;">
+        <h3 style="display: inline-block;">منصات الالعاب المتوفره</h3>
+        <ul class="dots" >
             <li>PS4</li>
             <li>nintendo switch</li>
             <li>PC</li>
@@ -39,44 +67,44 @@
 <!-- Nintendo: red   -->
 <!-- PC:       green -->
 <!-- تلميح: يجب عليك اضافة كلاس لكل اسم -->
-    <table>
+    <table class="tab">
         <tr>
             <th>الاسم</th>
             <th>العمر</th>
             <th>اللعبه المفضله</th>
             <th>المنصه</th>
         </tr>
-        <tr>
+        <tr class="ps">
             <td>احمد</td>
             <td>16</td>
             <td>call of duty</td>
             <td>PS4</td>
         </tr>
-        <tr>
+        <tr class="nat">
             <td>ساره</td>
             <td>15</td>
             <td>mario party</td>
             <td>nintendo switch</td>
         </tr>
-        <tr>
+        <tr class="gre">
             <td>علي</td>
             <td>15</td>
             <td>league of legends</td>
             <td>PC</td>
         </tr>
-        <tr>
+        <tr class="ps">
             <td>عبدالله</td>
             <td>14</td>
             <td>fifa</td>
             <td>PS4</td>
         </tr>
-        <tr>
+        <tr class="nat">
             <td>دانه</td>
             <td>22</td>
             <td>super smash bros</td>
             <td>nintendo switch</td>
         </tr>
-        <tr>
+        <tr class="gre">
             <td>ليلى</td>
             <td>17</td>
             <td>minecraft</td>
